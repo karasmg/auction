@@ -105,7 +105,7 @@ $this->breadcrumbs = array(
     <div class="box">
         <div class="tab-content">
             <div class="tab-pane active" id="table">
-                <?php 
+                <?php
                 $this->renderPartial('_table_сategories', array(
                     'model' => $model
                 ));

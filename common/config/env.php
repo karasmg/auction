@@ -4,10 +4,10 @@ return [
     'preload'    => ['log'],
     'components' => [
         'db'  => [
-            'connectionString'      => 'mysql:host=localhost;dbname=dbname',
+            'connectionString'      => 'mysql:host=localhost;dbname=auction',
             'emulatePrepare'        => true,
-            'username'              => 'dbname',
-            'password'              => 'dbpassword',
+            'username'              => 'root',
+            'password'              => '',
             'charset'               => 'utf8',
             'enableProfiling'       => true,
             'enableParamLogging'    => true,
@@ -21,7 +21,7 @@ return [
             'transportType'    => 'smtp',
             'transportOptions' => [
                 'host'       => 'ssl://smtp.gmail.com',
-                'username'   => 'demo@gmail.com',
+                'username'   => 'karasmg@gmail.com',
                 'password'   => 'password',
                 'port'       => '465',
             ],

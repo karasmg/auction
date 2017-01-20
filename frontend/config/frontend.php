@@ -55,9 +55,9 @@ return [
     'components'        => [
         'request'     => [
             'class'                  => 'HttpRequest',
+            'baseUrl' => '',
             'noCsrfValidationRoutes' => [
                 '^user/sales/workwithlots$',
-
             ],
             'enableCsrfValidation' => true,
             'enableCookieValidation' => true,

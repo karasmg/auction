@@ -32,7 +32,6 @@ class RegistrationAction extends CAction
 
     public function run()
     {
-
         if (!Yii::app()->user->isGuest){
             Yii::app()->controller->redirect(Yii::app()->homeUrl);
         }
